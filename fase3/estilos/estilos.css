@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background: #008cff;
+    color:white;
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.menu{
+display: flex;
+float: right;
+margin-right: 50px;
+margin-top: 20px;
+
+}
+ 
+ 
+.menu a{
+    color:white;
+    transition:all 0.5s;
+    font-size: 17px;
+    padding: 10px;
+    transition:all 0.5s;
+    text-decoration: none;
+}
+.seleccionado {
+    background: #fff;
+    color:#008cff !important;
+    transition:all 0.5s;
+    font-size: 17px;
+    padding: 10px;
+    transition:all 0.5s;
+    text-decoration: none;
+}
+.menu a:hover{
+    
+    background: #fff;
+    color:#008cff;
+   
+}
+.section{
+    display: flex;
+width: 90%;
+justify-content: center;
+flex-direction: column;
+}
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images{
+    padding: 5px;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.images img{
+    width: 400px;
+    height: 220px;
+    
+}
+.images:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.videos{
+    padding: 5px;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+inframe{
+    width: 400px;
+    height: 220px;
+}
+.tsec{
+    margin:20px;
+    text-align:center;
+}
+
