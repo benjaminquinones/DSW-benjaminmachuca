@@ -48,6 +48,7 @@
     }
     .formulariodegoogle{
       grid-column: 1/2;
+      width: 650px;
     }
     .facebook{
 grid-column: 2/3;
@@ -90,9 +91,14 @@ grid-column: 2/3;
     </div>
     <div class="nav-scroller py-1 mb-2">
       <nav class="nav d-flex justify-content-between">
-        <a class="p-2 link-secondary" href="#">Inicio</a>
-        <a class="p-2 link-secondary" href="#">Tema</a>
-        <a class="p-2 link-secondary" href="#">Recursos Dijitales</a>
+        <a class="p-2 link-secondary" href="./">Inicio</a>
+       <li class="aprendi"> <a class="p-2 link-secondary" href="#">Temas</a>
+        <ul class="dropdown">
+          <li><a    href="tema1.html">Etiquetas semánticas</a></li>
+          <li><a href="tema2.html">Enlaces</a></li>
+          <li><a class="seleccionado" href="tema3.html">Listas HTML</a></li>
+        </ul></li>
+        <a class="p-2 link-secondary" href="recursos.html">Recursos Dijitales</a>
         <li class="aprendi"><a href="#" class="p-2 link-secondary">Aprendizaje</a>
           <ul class="dropdown">
             <li><a class="p-2 link-secondary" href="afase3.html#uno">Fase 3</a></li>
@@ -109,72 +115,73 @@ grid-column: 2/3;
         w="false" e="" m="BMe="></div>
     </div>
   </div>
-
- <center>
-    <img src="img/3.png"   alt="UNAD" width="85%" style="height: 600px;">
-   
- </center>
+ <br><br><br>
     <br>
    
       
     <br>
     <div class="container gridfase4" id="uno">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              Responsive Desing
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">Yo entendi que
-              <strong>Responsive Desing</strong> es una metodologia que se utiliza en diseño web para que esos mismos
-              sitios sean adaptables en todos los dispositivos ya sea pc, celular o tablet.
+      
+      <div class="gridinicio">
+        <div style="width: 700px;">
+          <div class="accordion" id="accordionExample" style="width: 90%;">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Responsive Desing
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">Yo entendi que
+                  <strong>Responsive Desing</strong> es una metodologia que se utiliza en diseño web para que esos mismos
+                  sitios sean adaptables en todos los dispositivos ya sea pc, celular o tablet.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Los Media Queries
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los <strong>Media Queries</strong> son los codigos que se utilizan para hacer el responsive desing uno de
+                  ellos por ejemplo podría ser el <code> <b>@media</b> </code>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  SEO
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  El <strong>SEO</strong> es más que nada la descripcion y pocicionamiento de nuestro sitio web en los
+                  diferentes navegadores que hay.
+                </div>
+              </div>
             </div>
           </div>
+       
+            <br>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Los Media Queries
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Los <strong>Media Queries</strong> son los codigos que se utilizan para hacer el responsive desing uno de
-              ellos por ejemplo podría ser el <code> <b>@media</b> </code>.
-            </div>
-          </div>
+        <div class="facebook">
+          <div class="formulariodegoogle">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdxeat9ccTucsGM9FDYpipsaXK_JLznUjDqnht-kTIXaV6QSA/viewform?embedded=true"
+              width="100%" height="2271" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+         </div> 
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              SEO
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              El <strong>SEO</strong> es más que nada la descripcion y pocicionamiento de nuestro sitio web en los
-              diferentes navegadores que hay.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="facebook">
-        <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="700"
-          data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true"
-          data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a
-              href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD
-              Colombia</a></blockquote>
-        </div>
-        
+       </div>
       </div>
     </div>
     </div>

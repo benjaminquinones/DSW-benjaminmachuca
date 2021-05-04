@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Está pagina es de prueba para aprender a utilizar Bootstrap">
+        <meta name="author" content="Benjamin Quiñones">
+        <meta name="generator" content="Hugo 0.82.0">
+        <title>Enlaces HTML</title>
+      
+      
+      
+        <!-- Bootstrap core CSS -->
+      
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0&appId=683860169025022&autoLogAppEvents=1"
+    nonce="B9WPFKcu"></script>
+</head>      
+ 
+<br>
+<br>
+
+<style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    header {
+      background: #fff;
+    }
+
+    .dropdown {
+      display: none;
+    }
+
+    .aprendi:hover .dropdown {
+      display: block;
+    }
+    .gridinicio{
+      display: grid;
+    }
+    .formulariodegoogle{
+      grid-column: 1/2;
+    }
+    .facebook{
+grid-column: 2/3;
+    }
+    .redes{
+      display: flex;
+     justify-content: center;
+     margin: 25px;
+    }
+    .redes img{
+      width: 50px;
+      margin-left: 14px;
+    }
+    .lunad{
+      position: absolute;
+      left: 50px;
+      margin-top: -20px;
+    }
+    .definicion{
+    width: 700px;
+}
+.section{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.section1{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+     
+    flex-wrap: wrap;
+    }
+    .section1 h1{
+        max-width: 100%;
+        line-height: 2;
+        text-align: center;
+    }
+    .section1 p{
+        
+        text-align: left;
+    }
+    .section1 div{
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    .gridinicio img{
+        width: 90%;
+        max-width: 100%;
+       
+    }
+  </style>
+ 
+
+<body>
+    <div class="container">
+     
+
+      <div class="redes"> 
+        <img src="img/unad.png" alt="" class="lunad" style="width: 90px;">
+        <h2>Fase 4 - Benjamin Quiñones </h2>
+        
+          <img src="img/facebook.png" alt="">
+          <img src="img/messenger.png" alt="">
+          <img src="img/twitter.png" alt="">
+      </div>
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 link-secondary" href="./">Inicio</a>
+         <li class="aprendi"> <a class="p-2 link-secondary" href="#">Temas</a>
+          <ul class="dropdown">
+            <li><a    href="tema1.html">Etiquetas semánticas</a></li>
+            <li><a href="tema2.html">Enlaces</a></li>
+            <li><a class="seleccionado" href="tema3.html">Listas HTML</a></li>
+          </ul></li>
+          <a class="p-2 link-secondary" href="recursos.html">Recursos Dijitales</a>
+          <li class="aprendi"><a href="#" class="p-2 link-secondary">Aprendizaje</a>
+            <ul class="dropdown">
+              <li><a class="p-2 link-secondary" href="afase3.html#uno">Fase 3</a></li>
+              <li><a class="p-2 link-secondary" href="afase4.html#uno">Fase 4</a></li>
+            </ul>
+          </li>
+          <a class="p-2 link-secondary" href="mailto:benjaminquinones2@gmail.com">Autor</a>
+  
+        </nav>
+      </div>
+   <br>
+   
+    <div class="gridinicio">
+        <div>
+            <h1> ¿Qué es un enlace en un sitio web?
+            </h1>
+            <img src="img/2.jpg" alt="">
+            <p class="definicion">
+    
+                Una de las cosas que caracteriza a la web como el medio de comunicación es la navegación por medio de
+                hipervínculos (links o enlaces). Por lo tanto esta conexión entre archivos permite a cada usuario elegir
+                el sentido de la navegación para así poder tener una conexión.
+                En HTML estos enlaces se marcan con la siguientes etiqueta <a></a> y el atributo principal es href="" en
+                ella se encuentra la ubicación del archivo que se encuentra en la misma carpeta que el archivo que lo
+                está llamando.
+                <br>
+                <br>
+                <pre>En las siguientes etiquetas &lt;a href=""&gt;&lt;/a&gt;</code>podemos colocar cualquier
+    elemento html que funcionará como botón, generalmente se coloca un texto 
+    o una imagen.</pre>
+                
+            </p>
+            <br>
+        </div>
+        <div class="facebook">
+           <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="700"
+             data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true"
+             data-show-facepile="true">
+             <blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a
+                 href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD
+                 Colombia</a></blockquote>
+                
+           </div>
+            <br>
+           <br>
+           <div class="fb-page" data-href="https://www.facebook.com/unadceadsantamarta" data-tabs="timeline"
+           data-width="700" data-height="400" data-small-header="true" data-adapt-container-width="true"
+           data-hide-cover="true" data-show-facepile="true"  >
+           <blockquote cite="" class="fb-xfbml-parse-ignore"><a
+               href="">UNAD CEAD Santa Marta  </a></blockquote>
+           </div>
+        </div>
+       </div>
+        <br>
+        <br>
+        <footer>
+            <center>
+                <h3>Todos los derechos reservados &copy; 2021 </h3>
+
+                <hr>
+            </center>
+        </footer>
+
+</body>
+
+
+</html>
