@@ -50,8 +50,9 @@
       grid-column: 1/2;
       width: 650px;
     }
+    
     .facebook{
-grid-column: 2/3;
+grid-column: 2/2;
     }
     .redes{
       display: flex;
@@ -66,6 +67,10 @@ grid-column: 2/3;
       position: absolute;
       left: 50px;
       margin-top: -20px;
+    }
+    .nav-scroller a{
+      color: white;
+      
     }
   </style>
 
@@ -89,7 +94,7 @@ grid-column: 2/3;
         <img src="img/messenger.png" alt="">
         <img src="img/twitter.png" alt="">
     </div>
-    <div class="nav-scroller py-1 mb-2">
+    <div class="nav-scroller py-1 mb-2" style="background-color: crimson; ">
       <nav class="nav d-flex justify-content-between">
         <a class="p-2 link-secondary" href="./">Inicio</a>
        <li class="aprendi"> <a class="p-2 link-secondary" href="#">Temas</a>
@@ -102,10 +107,10 @@ grid-column: 2/3;
         <li class="aprendi"><a href="#" class="p-2 link-secondary">Aprendizaje</a>
           <ul class="dropdown">
             <li><a class="p-2 link-secondary" href="afase3.html#uno">Fase 3</a></li>
-            <li><a class="p-2 link-secondary" href="afase4.html#uno">Fase 4</a></li>
+            <li><a class="p-2 link-secondary" href="afase4.html#uno">Fase 4 - Cuestionario</a></li>
           </ul>
         </li>
-        <a class="p-2 link-secondary" href="mailto:benjaminquinones2@gmail.com">Autor</a>
+        <a class="p-2 link-secondary" href="../fase3/autor.html">Autor</a>
 
       </nav>
     </div>
@@ -123,7 +128,19 @@ grid-column: 2/3;
     <div class="container gridfase4" id="uno">
       
       <div class="gridinicio">
-        <div style="width: 700px;">
+       
+      <center>
+         
+          <div class="formulariodegoogle">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdxeat9ccTucsGM9FDYpipsaXK_JLznUjDqnht-kTIXaV6QSA/viewform?embedded=true"
+              width="100%" height="2271" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+         </div> 
+      </center>
+        
+        <div  >
+          
+          <div class="facebook">  
           <div class="accordion" id="accordionExample" style="width: 90%;">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -174,18 +191,26 @@ grid-column: 2/3;
        
             <br>
         </div>
-        <div class="facebook">
-          <div class="formulariodegoogle">
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdxeat9ccTucsGM9FDYpipsaXK_JLznUjDqnht-kTIXaV6QSA/viewform?embedded=true"
-              width="100%" height="2271" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-         </div> 
-        </div>
+        
        </div>
-      </div>
-    </div>
-    </div>
-  </div>
+       </div>
+       <footer>
+        <center>
+            <h3>Todos los derechos reservados &copy; 2021 </h3>
+            <p>
+              Código: 1085034381 |
+        Teléfono: 3054666206  |
+        Programa: ingeniería de sistemas |
+        Curso: Diseños de Sitio web  |
+        Skype: benjamín1184  |
+        Correo:<a href="mailto:benjaminquinones2@gmail.com"> benjaminquinones2@gmail.com</a><br><br> 
+            </p>
+
+            <hr>
+        </center>
+    </footer>
+   </div>
+    
     <br>
     <br>
 </body>
